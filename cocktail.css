@@ -1,0 +1,54 @@
+div{ 
+  
+    text-align: center;
+  
+   
+}
+#cocktails{
+    
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+ img{
+    width: 55%;
+    height: 18%;
+    object-fit: cover;
+    border-radius: 15px;
+    border-color: rgb(106, 104, 106);
+}
+ h2{
+
+   
+    font-size: 20px;
+    color: rgb(106, 104, 106);
+}
+h1{
+    text-align: center;
+}
+#images{
+    display: flex;
+    justify-content: center;  
+}
+h3{
+    font-size: 500%;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-top: 10%;
+    color: rgb(131,166,48);
+}
+.bliss{
+    width: 40%;
+    height: 7%;
+    object-fit: contain;
+}
+.yellow{
+    width: 25%;
+    height: 1%;
+    object-fit: contain;
+} 
+
