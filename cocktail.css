@@ -1,8 +1,6 @@
 div{ 
   
     text-align: center;
-  
-   
 }
 #cocktails{
     
@@ -12,43 +10,89 @@ div{
     gap: 5px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+   
 
 }
  img{
     width: 55%;
     height: 18%;
     object-fit: cover;
-    border-radius: 15px;
+    border-radius: 10px;
     border-color: rgb(106, 104, 106);
+    
 }
  h2{
 
    
-    font-size: 20px;
-    color: rgb(106, 104, 106);
+    font-size: 15px;
+    color: #000;
 }
 h1{
     text-align: center;
 }
 #images{
     display: flex;
-    justify-content: center;  
+    /* justify-content: center;   */
+    padding-left: 20%;
+    gap: 10%;
+   
+    
 }
 h3{
     font-size: 500%;
     text-align: justify;
     text-justify: inter-word;
     padding-top: 10%;
-    color: rgb(131,166,48);
+    color: rgb(233,105,66);
+}
+
+.btn1{
+    width: 40%;
+    height: 5vh;
+    border-radius: 25px;
+    color: black;
+    border: 1px solid;
+    float: left;
 }
 .bliss{
-    width: 40%;
-    height: 7%;
-    object-fit: contain;
+    width: 50%;
+    height: 80%;
+  
+    
 }
-.yellow{
-    width: 25%;
-    height: 1%;
-    object-fit: contain;
-} 
+#form{
+     background-color:rgb(254,200,58);
+   width: 215%;
+   color: #000;
+   height: 96vh;
+   text-align: center;
+   font-family: sans-serif; 
+}
+#search{
+    position: relative;
+    display: inline-block;
+    margin-left: 20%;
+    margin-bottom: 10%;
+    
+   
+}
+#search-input{
+    border: 1px solid;
+    border-radius: 30px;
+    padding-right: 10px;
+    width: 450%;
+    min-height: 6vh;
+    border:  solid 1px;
+}
+#search-button{
+    position: absolute;
+    margin-left: 660px;
+    top: 5%;
+    width: 60%;
+    border: none;
+    background-color: rgb(120,185,180);
+    border-radius: 20px;
+    min-height: 6vh;
+    color: white;
+}
 
